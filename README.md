@@ -2,9 +2,9 @@
 
 A veterinary management system built in **pure C**, focused on:
 
--   Layered architecture\
--   Database persistence\
--   Manual memory management\
+-   Layered architecture
+-   Database persistence
+-   Manual memory management
 -   Protection against classic C errors
 
 ------------------------------------------------------------------------
@@ -14,9 +14,9 @@ A veterinary management system built in **pure C**, focused on:
 **Vet-Cstem** is a terminal-based veterinary management system that
 allows:
 
--   Animal registration\
--   Updating animal information\
--   Listing registered records\
+-   Animal registration
+-   Updating animal information
+-   Listing registered records
 
 The project was designed as an advanced C learning exercise, covering:
 
@@ -35,10 +35,10 @@ only in memory**.
 
 The system connects directly to MySQL using the native C API, providing:
 
--   Permanent data storage\
--   `SELECT` queries\
--   `INSERT` operations\
--   `UPDATE` operations\
+-   Permanent data storage
+-   `SELECT` queries
+-   `INSERT` operations
+-   `UPDATE` operations
 -   Database-layer error handling
 
 This makes the project a real system with robust persistence.
@@ -57,9 +57,9 @@ This library was created to solve one of C's most dangerous problems:
 
 It provides safe functions for:
 
--   Controlled string reading\
--   Explicit size limitation\
--   Safe integer conversion\
+-   Controlled string reading
+-   Explicit size limitation
+-   Safe integer conversion
 -   Input validation
 
 This avoids unsafe standard functions such as:
@@ -72,8 +72,8 @@ The approach significantly increases system security and robustness.
 ------------------------------------------------------------------------
 ### Layers
 
--   `main.c` → Interface and system flow\
--   `persistence.*` → Database access layer\
+-   `main.c` → Interface and system flow
+-   `persistence.*` → Database access layer
 -   `input.*` → Custom secure input library
 
 ------------------------------------------------------------------------
@@ -94,10 +94,10 @@ Or just use the makefile LOL
 
 ## Concepts Applied
 
--   Pointers and dynamic allocation\
--   Error handling via return codes\
--   Safe string manipulation\
--   Database integration\
+-   Pointers and dynamic allocation
+-   Error handling via return codes
+-   Safe string manipulation
+-   Database integration
 -   Debugging with `gdb` and `valgrind`
 
 ------------------------------------------------------------------------
@@ -107,9 +107,9 @@ Or just use the makefile LOL
 Vet-Cstem was developed as a deep dive into the C language, going beyond
 basics:
 
--   No frameworks\
--   No automatic abstractions\
--   Full control over memory\
+-   No frameworks
+-   No automatic abstractions
+-   Full control over memory
 -   Direct database integration
 
 It is designed for developers who want to truly understand low-level
