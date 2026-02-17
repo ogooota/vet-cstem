@@ -81,7 +81,7 @@ The approach significantly increases system security and robustness.
 ## Compilation
 
 Linux example using GCC:
-    gcc main.c persistence.c input.c -o vet-cstem -lmysqlclient -I/usr/include/mysql
+    `gcc -Iheaders -Wall -Wextra main.c src/models/animal.c src/ops/operations.c src/utils.c src/repositories/animal_repository.c src/front/menu.c src/persistence/persistence.c -o main -linput -lmysqlclient`
 
 Or just use the makefile LOL
 ------------------------------------------------------------------------
